@@ -1,3 +1,4 @@
+""" CloudSkills copy minimal edit for createing s3 bucket"""
 import sys
 import boto3
 
@@ -6,8 +7,8 @@ try:
     def main():
         create_s3bucket(bucket_name)
 
-except Exception as e:
-    print(e)
+except Exception as _e_:
+    print(_e_)
 
 def create_s3bucket(bucket_name,):
     s3_bucket = boto3.client(
