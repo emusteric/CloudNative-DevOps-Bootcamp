@@ -9,6 +9,7 @@ resource "aws_security_group" "allow_8080" {
     protocol    = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
   }
+}
 
 data "aws_ami" "ubuntu" {
   most_recent = true

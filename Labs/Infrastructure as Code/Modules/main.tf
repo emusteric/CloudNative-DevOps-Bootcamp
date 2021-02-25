@@ -12,7 +12,7 @@ provider "aws" {
 }
 
 module "webserver" {
-  source = "./modules.ec2"
+  source = "./ec2"
 
   servername = "terraformdemo"
   size = "t3.micro"
