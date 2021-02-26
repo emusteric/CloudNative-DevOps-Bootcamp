@@ -1,3 +1,3 @@
-output "puplic_ip" {
-    value = module.webserver.puplic_ip 
+output "public_ip" {
+    value = module.webserver.public_ip 
 }
