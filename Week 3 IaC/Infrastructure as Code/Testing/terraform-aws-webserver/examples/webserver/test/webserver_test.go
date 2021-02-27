@@ -17,7 +17,7 @@ func TestTerraformWebserverExample(t *testing.T) {
 	terraformOptions := terraform.WithDefaultRetryableErrors(t, &terraform.Options{
 
 		// The path to where the example Terraform code is located
-		TerraformDir: "/Users/benholla/DevOps/CloudNative-DevOps-Bootcamp/Week 3 IaC/Infrastructure as Code/Testing/terraform-aws-webserver/examples/webserver",
+		TerraformDir: "/Users/Kallor/DevOps/Learnings/CloudNative-DevOps-Bootcamp/Week 3 IaC/Infrastructure as Code/Testing/terraform-aws-webserver/examples/webserver",
 
 		//Variables to pass to the Terraform code using -var options
 		Vars: map[string]interface{}{
