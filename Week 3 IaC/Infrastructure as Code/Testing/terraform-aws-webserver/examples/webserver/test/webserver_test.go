@@ -1,5 +1,5 @@
-// To kick this off first run
-//
+// To kick this off first run "go get -t -v"
+// Then run "go test -v .\webserver_test.go"
 package test
 
 import (
