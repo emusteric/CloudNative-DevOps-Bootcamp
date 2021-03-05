@@ -67,7 +67,7 @@ variable "nic_ip_allocation_method" {
 variable "vm_name" {
   description = "Name of the Virtual Machine"
   type = string
-  default = "ben_test_vm"
+  default = "bentestvm"
 }
 
 variable "vm_size" {

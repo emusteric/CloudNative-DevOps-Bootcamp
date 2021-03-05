@@ -48,7 +48,7 @@ resource "azurerm_network_interface" "nic" {
 
 #Virtual Machine
 resource "azurerm_windows_virtual_machine" "vm" {
-    name = "terratest"
+    name = var.vm_name
     resource_group_name = azurerm_resource_group.rg.name
     size = var.vm_size
     location = azurerm_resource_group.rg.location
